@@ -1,0 +1,15 @@
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\bin\Debug\net6.0\Armazenameto.exe
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\bin\Debug\net6.0\Armazenameto.deps.json
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\bin\Debug\net6.0\Armazenameto.runtimeconfig.json
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\bin\Debug\net6.0\Armazenameto.dll
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\bin\Debug\net6.0\ref\Armazenameto.dll
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\bin\Debug\net6.0\Armazenameto.pdb
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenameto.csproj.AssemblyReference.cache
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenameto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenameto.AssemblyInfoInputs.cache
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenameto.AssemblyInfo.cs
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenameto.csproj.CoreCompileInputs.cache
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenameto.dll
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\obj\Debug\net6.0\ref\Armazenameto.dll
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenameto.pdb
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenameto.genruntimeconfig.cache

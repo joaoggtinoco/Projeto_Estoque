@@ -1,0 +1,10 @@
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.csproj.AssemblyReference.cache
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.AssemblyInfoInputs.cache
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.AssemblyInfo.cs
+C:\Users\joao.tinoco\source\repos\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.csproj.CoreCompileInputs.cache
+C:\SolucaoPJM\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.csproj.AssemblyReference.cache
+C:\SolucaoPJM\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\SolucaoPJM\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.AssemblyInfoInputs.cache
+C:\SolucaoPJM\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.AssemblyInfo.cs
+C:\SolucaoPJM\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.csproj.CoreCompileInputs.cache
