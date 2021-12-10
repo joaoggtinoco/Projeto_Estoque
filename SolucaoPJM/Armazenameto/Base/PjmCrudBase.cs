@@ -5,7 +5,7 @@ namespace Armazenamento.Base
         protected List<PjmItemBase> list = new List<PjmItemBase>();
 
         //Verifica se a categoria esta vazia
-        public bool ListaVaziah()
+        internal bool ListaVaziah()
         {
             if (list.Count.Equals(0))
             {
@@ -15,7 +15,7 @@ namespace Armazenamento.Base
         }
 
         //Verifica se a categoria esta cheia
-        public bool ListaCheiah()
+        internal bool ListaCheiah()
         {
             if (list.Count.Equals(list.Capacity))
             {
@@ -24,7 +24,7 @@ namespace Armazenamento.Base
             return false;
         }
 
-        public void AdicionarItem(PjmItemBase item)
+        internal void AdicionarItem(PjmItemBase item)
         {
             if (ListaCheiah())
             {
@@ -48,7 +48,7 @@ namespace Armazenamento.Base
         }
 
         // cRud Mostra todos os produtos na categoria
-        public void ExibirItens()
+        internal void ExibirItens()
         {
             if (ListaVaziah())
             {
@@ -65,7 +65,7 @@ namespace Armazenamento.Base
         }
 
         //cruD Remove um produto do estoque 
-        public void RemoverItem(PjmItemBase itemParaRemover)
+        internal void RemoverItem(PjmItemBase itemParaRemover)
         {
             if (ListaVaziah())
             {

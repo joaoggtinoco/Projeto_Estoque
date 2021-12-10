@@ -13,6 +13,7 @@ namespace Armazenamento.EstoqueNM
             NomeEntidade = nomeCategoria;
             QtdMaxLista = qtdMaxProdutos;
             list.Capacity = QtdMaxLista;
+            Console.WriteLine($"Categoria {nomeCategoria} criada com capacidade de {qtdMaxProdutos} produtos");
         }
     }
 }

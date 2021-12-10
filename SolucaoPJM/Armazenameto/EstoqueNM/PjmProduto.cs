@@ -15,6 +15,7 @@ namespace Armazenamento
         {
             Nome = nomeProduto;
             Valor = valor;
+            Console.WriteLine($"Produto {nomeProduto} criado com valor de R${valor}");
         }
     }
 }
