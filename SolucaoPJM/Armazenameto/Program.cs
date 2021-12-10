@@ -6,41 +6,41 @@ namespace Armazenamento {
 {
         static void Main(string[] args)
         {
-            Estoque estoque = new ("Bloco01", 3);
+            PjmEstoque estoque = new PjmEstoque("Bloco01", 3);
 
             //Instanciando categoria
-            CategoriaEstoque catCelulares = new CategoriaEstoque("Celular", 10);
-            Produto celular = new ("Samsung", 1200);
-            Produto celular2 = new ("Apple", 10000);
-            
-            CategoriaEstoque catComputadores= new CategoriaEstoque("Computador", 10);
-            Produto computador = new("Dell", 6500);
-            Produto computador2 = new("Lenovo", 5000);
+            PjmCategoriaEstoque catCelulares = new PjmCategoriaEstoque("Celular", 10);
+            PjmProduto celular = new ("Samsung", 1200);
+            PjmProduto celular2 = new ("Apple", 10000);
 
-            CategoriaEstoque catNotebooks = new CategoriaEstoque("Notebook", 10);
-            Produto notebook = new("Positivo", 3400);
-            Produto notebook2= new("Mac", 20000);
+            PjmCategoriaEstoque catComputadores = new PjmCategoriaEstoque("Computador", 10);
+            PjmProduto computador = new("Dell", 6500);
+            PjmProduto computador2 = new("Lenovo", 5000);
 
-            estoque.estoqueVazioh();
+            PjmCategoriaEstoque catNotebooks = new PjmCategoriaEstoque("Notebook", 10);
+            PjmProduto notebook = new("Positivo", 3400);
+            PjmProduto notebook2 = new("Mac", 20000);
 
-            estoque.AdicionarCategoria(catCelulares);
-            estoque.AdicionarCategoria(catComputadores);
-            estoque.AdicionarCategoria(catNotebooks);
+            estoque.ListaVaziah();
 
-            catCelulares.AdicionarProduto(celular);
-            catCelulares.AdicionarProduto(celular2);
+            estoque.AdicionarItem(catCelulares);
+            estoque.AdicionarItem(catComputadores);
+            estoque.AdicionarItem(catNotebooks);
 
-            catComputadores.AdicionarProduto(computador);
-            catComputadores.AdicionarProduto(computador2);
+            catCelulares.AdicionarItem(celular);
+            catCelulares.AdicionarItem(celular2);
 
-            catNotebooks.AdicionarProduto(notebook);
-            catNotebooks.AdicionarProduto(notebook2);
+            catComputadores.AdicionarItem(computador);
+            catComputadores.AdicionarItem(computador2);
 
-            estoque.ExibirCategoriasDoEstoque();
+            catNotebooks.AdicionarItem(notebook);
+            catNotebooks.AdicionarItem(notebook2);
 
-            catCelulares.ExibirProdutosNaCategoria();
-            catComputadores.ExibirProdutosNaCategoria();
-            catNotebooks.ExibirProdutosNaCategoria();
+            estoque.ExibirItens();
+
+            catCelulares.ExibirItens();
+            catComputadores.ExibirItens(); 
+            catNotebooks.ExibirItens();
 
 
 

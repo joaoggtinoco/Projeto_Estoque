@@ -3,8 +3,7 @@ namespace Armazenamento
 {
      public class PjmProduto : PjmItemBase
   {
-        
-        public int Id { get; private set; }
+       
         public double Valor { get; set; }
 
         public PjmProduto()
@@ -12,11 +11,10 @@ namespace Armazenamento
       
         }
 
-        public PjmProduto(string nome, double valor)
+        public PjmProduto(string nomeProduto, double valor)
         {
-            Nome = nome;
+            Nome = nomeProduto;
             Valor = valor;
-            Id++;
         }
     }
 }

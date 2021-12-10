@@ -5,7 +5,7 @@ namespace Armazenamento.Base
         protected List<PjmItemBase> list = new List<PjmItemBase>();
 
         //Verifica se a categoria esta vazia
-        public bool categoriaVaziah()
+        public bool ListaVaziah()
         {
             if (list.Count.Equals(0))
             {
@@ -15,7 +15,7 @@ namespace Armazenamento.Base
         }
 
         //Verifica se a categoria esta cheia
-        public bool categoriaCheiah()
+        public bool ListaCheiah()
         {
             if (list.Count.Equals(list.Capacity))
             {
@@ -26,34 +26,64 @@ namespace Armazenamento.Base
 
         public void AdicionarItem(PjmItemBase item)
         {
-            if (categoriaCheiah())
+            if (ListaCheiah())
             {
                 Console.WriteLine($"Desculpa mas a {item.NomeEntidade} já está cheia.");
             }
             else
             {
                 list.Add(item);
-                Console.WriteLine(item.Nome + " adicionado com sucesso");
-            }
+                ContadorDeItens++;
 
-
-            // cRud Mostra todos os produtos na categoria
-            public void ExibirProdutosNaCategoria()
-            {
-                if (categoriaVaziah())
+                //Revisar
+                if (item.Nome != null)
                 {
-                    Console.WriteLine("Não há produtos nessa categoria.");
+                    Console.WriteLine($"{item.Nome} adicionado aa {item.NomeEntidade} com sucesso");
                 }
                 else
                 {
-                    foreach (PjmProduto produto in listaDeCategoria)
-                    {
-                        Console.WriteLine("|" + produto.Id + "|" + produto.Nome + "|" + produto.Valor + "|");
-                    }
-
+                    Console.WriteLine($"{item.NomeEntidade} adicionado a {item.NomeEntidade} com sucesso");
                 }
             }
+        }
 
+        // cRud Mostra todos os produtos na categoria
+        public void ExibirItens()
+        {
+            if (ListaVaziah())
+            {
+                Console.WriteLine("Não há produtos nessa categoria.");
+            }
+            else
+            {
+                foreach (PjmItemBase item in list)
+                {
+                    Console.WriteLine("|" + item.Nome + "|");
+                }
+
+            }
+        }
+
+        //cruD Remove um produto do estoque 
+        public void RemoverItem(PjmItemBase itemParaRemover)
+        {
+            if (ListaVaziah())
+            {
+                Console.WriteLine("Não há categoria para remover.");
+            }
+            else
+            {
+                foreach (PjmItemBase item in list)
+                {
+                    if (itemParaRemover == item)
+                    {
+                        list.Remove(itemParaRemover);
+                        ContadorDeItens--;
+                        Console.WriteLine("Categoria " + item.Nome + " removida com sucesso");
+                        break;
+                    }
+                }
+            }
         }
     }
 }
