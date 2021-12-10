@@ -8,3 +8,8 @@ C:\SolucaoPJM\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.GeneratedMS
 C:\SolucaoPJM\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.AssemblyInfoInputs.cache
 C:\SolucaoPJM\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.AssemblyInfo.cs
 C:\SolucaoPJM\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.csproj.CoreCompileInputs.cache
+D:\Codigos\Projeto_Estoque\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.csproj.AssemblyReference.cache
+D:\Codigos\Projeto_Estoque\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codigos\Projeto_Estoque\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.AssemblyInfoInputs.cache
+D:\Codigos\Projeto_Estoque\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.AssemblyInfo.cs
+D:\Codigos\Projeto_Estoque\SolucaoPJM\Armazenameto\obj\Debug\net6.0\Armazenamento.csproj.CoreCompileInputs.cache
