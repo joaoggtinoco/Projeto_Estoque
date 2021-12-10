@@ -1,35 +1,33 @@
-﻿
+﻿using Armazenamento.Base;
 
 namespace Armazenamento.EstoqueNM
 {
-     public class Estoque
-    {
+     public class PjmEstoque : PjmCrudBase
+  {
         public string Nome { get; set; }
         public int QtdMaxCategorias { get; set; }
         public int ContadorDeCategorias { get; set; }
 
-        public List<CategoriaEstoque> listaDoEstoque;
-
         //Construtor
 
-        public Estoque()
+        public PjmEstoque()
         {
          
         }
 
-        public Estoque(string nome, int qtdMaxCategorias)
+        public PjmEstoque(string nome, int qtdMaxCategorias)
         {
-            listaDoEstoque = new List<CategoriaEstoque>();
+    
             Nome = nome;
             QtdMaxCategorias = qtdMaxCategorias;
-            listaDoEstoque.Capacity = QtdMaxCategorias;
+            list.Capacity = QtdMaxCategorias;
         }
 
 
         //Verifica se o estoque esta vazio
         public bool estoqueVazioh()
         {
-           if(listaDoEstoque.Count.Equals(0))
+           if(list.Count.Equals(0))
             {
                 return true;
             }
@@ -39,7 +37,7 @@ namespace Armazenamento.EstoqueNM
         //Verifica se o estoque esta cheio
         public bool estoqueCheioh()
         {
-            if (listaDoEstoque.Count.Equals(listaDoEstoque.Capacity))
+            if (list.Count.Equals(list.Capacity))
             {
                 return true;
             }
@@ -47,7 +45,7 @@ namespace Armazenamento.EstoqueNM
         }
 
         // Crud Adiciona um produto no estoque
-        public void AdicionarCategoria(CategoriaEstoque categoria)
+        public void AdicionarCategoria(PjmCategoriaEstoque categoria)
         {
             if (estoqueCheioh())
             {
@@ -55,7 +53,7 @@ namespace Armazenamento.EstoqueNM
             }
             else
             {
-                listaDoEstoque.Add(categoria);
+                list.Add(categoria);
                 ContadorDeCategorias++;
                 Console.WriteLine("Categoria " + categoria.Nome + " adicionada com sucesso");
             }
@@ -71,7 +69,7 @@ namespace Armazenamento.EstoqueNM
             }
             else
             {
-                foreach(CategoriaEstoque categoria in listaDoEstoque)
+                foreach(PjmCategoriaEstoque categoria in list)
                     {      
                         Console.WriteLine(" | " + categoria.Nome + " | ");
                     }
@@ -80,7 +78,7 @@ namespace Armazenamento.EstoqueNM
         }
 
         //cruD Remove um produto do estoque 
-        public void RemoverCategoria(CategoriaEstoque categoriaParaRemover)
+        public void RemoverCategoria(PjmCategoriaEstoque categoriaParaRemover)
         {
             if(estoqueVazioh())
             {
@@ -88,7 +86,7 @@ namespace Armazenamento.EstoqueNM
             }
             else
             {
-                foreach(CategoriaEstoque categoria in listaDoEstoque)
+                foreach(PjmCategoriaEstoque categoria in listaDoEstoque)
                 {
                     if(categoriaParaRemover == categoria)
                     { 

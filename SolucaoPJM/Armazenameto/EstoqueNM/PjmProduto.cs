@@ -1,18 +1,18 @@
-﻿
+﻿using Armazenamento.Base;
 namespace Armazenamento
 {
-     public class Produto
-    {
-        public string Nome { get; set; }
+     public class PjmProduto : PjmItemBase
+  {
+        
         public int Id { get; private set; }
         public double Valor { get; set; }
 
-        public Produto()
+        public PjmProduto()
         {
       
         }
 
-        public Produto(string nome, double valor)
+        public PjmProduto(string nome, double valor)
         {
             Nome = nome;
             Valor = valor;

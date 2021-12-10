@@ -5989,23 +5989,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gcarn\\.nuget\\packages\\": {},
-    "D:\\Arquivos de Programas\\VisualStudioShared\\NuGetPackages": {}
+    "C:\\Users\\joao.tinoco\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Codigos\\Projeto_Estoque\\SolucaoPJM\\TestesUnitPJM\\TestesUnitPJM.csproj",
+      "projectUniqueName": "C:\\Users\\joao.tinoco\\source\\repos\\joaoggtinoco\\Projeto_Estoque\\SolucaoPJM\\TestesUnitPJM\\TestesUnitPJM.csproj",
       "projectName": "TestesUnitPJM",
-      "projectPath": "D:\\Codigos\\Projeto_Estoque\\SolucaoPJM\\TestesUnitPJM\\TestesUnitPJM.csproj",
-      "packagesPath": "C:\\Users\\gcarn\\.nuget\\packages\\",
-      "outputPath": "D:\\Codigos\\Projeto_Estoque\\SolucaoPJM\\TestesUnitPJM\\obj\\",
+      "projectPath": "C:\\Users\\joao.tinoco\\source\\repos\\joaoggtinoco\\Projeto_Estoque\\SolucaoPJM\\TestesUnitPJM\\TestesUnitPJM.csproj",
+      "packagesPath": "C:\\Users\\joao.tinoco\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joao.tinoco\\source\\repos\\joaoggtinoco\\Projeto_Estoque\\SolucaoPJM\\TestesUnitPJM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Arquivos de Programas\\VisualStudioShared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\gcarn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\joao.tinoco\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6020,8 +6020,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Codigos\\Projeto_Estoque\\SolucaoPJM\\Armazenameto\\Armazenamento.csproj": {
-              "projectPath": "D:\\Codigos\\Projeto_Estoque\\SolucaoPJM\\Armazenameto\\Armazenamento.csproj"
+            "C:\\Users\\joao.tinoco\\source\\repos\\joaoggtinoco\\Projeto_Estoque\\SolucaoPJM\\Armazenameto\\Armazenamento.csproj": {
+              "projectPath": "C:\\Users\\joao.tinoco\\source\\repos\\joaoggtinoco\\Projeto_Estoque\\SolucaoPJM\\Armazenameto\\Armazenamento.csproj"
             }
           }
         }
