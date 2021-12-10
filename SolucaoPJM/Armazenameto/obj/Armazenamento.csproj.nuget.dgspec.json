@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SolucaoPJM\\Projeto_Estoque\\SolucaoPJM\\Armazenameto\\Armazenamento.csproj": {}
+    "D:\\Codigos\\Projeto_Estoque\\SolucaoPJM\\Armazenameto\\Armazenamento.csproj": {}
   },
   "projects": {
-    "C:\\SolucaoPJM\\Projeto_Estoque\\SolucaoPJM\\Armazenameto\\Armazenamento.csproj": {
+    "D:\\Codigos\\Projeto_Estoque\\SolucaoPJM\\Armazenameto\\Armazenamento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SolucaoPJM\\Projeto_Estoque\\SolucaoPJM\\Armazenameto\\Armazenamento.csproj",
+        "projectUniqueName": "D:\\Codigos\\Projeto_Estoque\\SolucaoPJM\\Armazenameto\\Armazenamento.csproj",
         "projectName": "Armazenamento",
-        "projectPath": "C:\\SolucaoPJM\\Projeto_Estoque\\SolucaoPJM\\Armazenameto\\Armazenamento.csproj",
-        "packagesPath": "C:\\Users\\joaot\\.nuget\\packages\\",
-        "outputPath": "C:\\SolucaoPJM\\Projeto_Estoque\\SolucaoPJM\\Armazenameto\\obj\\",
+        "projectPath": "D:\\Codigos\\Projeto_Estoque\\SolucaoPJM\\Armazenameto\\Armazenamento.csproj",
+        "packagesPath": "C:\\Users\\gcarn\\.nuget\\packages\\",
+        "outputPath": "D:\\Codigos\\Projeto_Estoque\\SolucaoPJM\\Armazenameto\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Arquivos de Programas\\VisualStudioShared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\joaot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gcarn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

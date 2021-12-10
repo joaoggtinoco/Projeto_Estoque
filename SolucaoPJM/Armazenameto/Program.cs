@@ -8,6 +8,7 @@ namespace Armazenamento {
         {
             Estoque estoque = new ("Bloco01", 3);
 
+            //Instanciando categoria
             CategoriaEstoque catCelulares = new CategoriaEstoque("Celular", 10);
             Produto celular = new ("Samsung", 1200);
             Produto celular2 = new ("Apple", 10000);

@@ -5989,19 +5989,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\joaot\\.nuget\\packages\\": {}
+    "C:\\Users\\gcarn\\.nuget\\packages\\": {},
+    "D:\\Arquivos de Programas\\VisualStudioShared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SolucaoPJM\\Projeto_Estoque\\SolucaoPJM\\TestesUnitPJM\\TestesUnitPJM.csproj",
+      "projectUniqueName": "D:\\Codigos\\Projeto_Estoque\\SolucaoPJM\\TestesUnitPJM\\TestesUnitPJM.csproj",
       "projectName": "TestesUnitPJM",
-      "projectPath": "C:\\SolucaoPJM\\Projeto_Estoque\\SolucaoPJM\\TestesUnitPJM\\TestesUnitPJM.csproj",
-      "packagesPath": "C:\\Users\\joaot\\.nuget\\packages\\",
-      "outputPath": "C:\\SolucaoPJM\\Projeto_Estoque\\SolucaoPJM\\TestesUnitPJM\\obj\\",
+      "projectPath": "D:\\Codigos\\Projeto_Estoque\\SolucaoPJM\\TestesUnitPJM\\TestesUnitPJM.csproj",
+      "packagesPath": "C:\\Users\\gcarn\\.nuget\\packages\\",
+      "outputPath": "D:\\Codigos\\Projeto_Estoque\\SolucaoPJM\\TestesUnitPJM\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Arquivos de Programas\\VisualStudioShared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\joaot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gcarn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6015,8 +6020,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\SolucaoPJM\\Projeto_Estoque\\SolucaoPJM\\Armazenameto\\Armazenamento.csproj": {
-              "projectPath": "C:\\SolucaoPJM\\Projeto_Estoque\\SolucaoPJM\\Armazenameto\\Armazenamento.csproj"
+            "D:\\Codigos\\Projeto_Estoque\\SolucaoPJM\\Armazenameto\\Armazenamento.csproj": {
+              "projectPath": "D:\\Codigos\\Projeto_Estoque\\SolucaoPJM\\Armazenameto\\Armazenamento.csproj"
             }
           }
         }
