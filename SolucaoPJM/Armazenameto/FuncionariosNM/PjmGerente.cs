@@ -17,26 +17,33 @@ namespace Armazenamento.FuncionariosNM
             return true;
         }
 
-        //==========================Revisar==================================
-        public bool ApagarEstoque(PjmEstoque estoqueParaApagar)
-        {
-            estoqueParaApagar = null;
+        // TODO Revisar o código e implementar a lógica.
+        //public bool ApagarEstoque(PjmEstoque estoqueParaApagar)
+        //{
+        //    estoqueParaApagar = null;
 
-            return true;
-        }
+        //    return true;
+        //}
 
         //Metódos criar e apagar uma categoria 
         public bool CriarCategoria(string nomeCategoria, int capacidadeProdutos)
         {
-            categoria = new PjmCategoriaEstoque(nomeCategoria ,capacidadeProdutos);
+            categoria = new PjmCategoriaEstoque(nomeCategoria, capacidadeProdutos);
 
             return true;
         }
 
+        // TODO Revisar o código e implementar a lógica.
+        //public bool CategoriaEstoque(PjmCategoriaEstoque categoriaParaApagar)
+        //{
+        //    categoriaParaApagar = null;
+
+        //    return true;
+        //}
 
 
         //Metódos CRUD para categoria 
-        
+
         public bool AdicionarCategoria(PjmCategoriaEstoque categoria) //@@
         {
             estoque.AdicionarItem(categoria);

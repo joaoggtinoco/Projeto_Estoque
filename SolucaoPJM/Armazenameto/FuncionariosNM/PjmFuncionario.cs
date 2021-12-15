@@ -1,4 +1,4 @@
-﻿using Armazenamento.Base;
+﻿using Armazenamento.BaseNM;
 using Armazenamento.EstoqueNM;
 
 namespace Armazenamento.FuncionariosNM

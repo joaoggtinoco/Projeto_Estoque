@@ -1,4 +1,4 @@
-namespace Armazenamento.Base
+namespace Armazenamento.BaseNM
 {
     public class PjmCrudBase : PjmItemBase
     {

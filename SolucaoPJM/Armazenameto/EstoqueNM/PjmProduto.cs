@@ -1,4 +1,4 @@
-﻿using Armazenamento.Base;
+﻿using Armazenamento.BaseNM;
 namespace Armazenamento
 {
      public class PjmProduto : PjmItemBase
