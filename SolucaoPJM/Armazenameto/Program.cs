@@ -21,9 +21,8 @@ namespace Armazenamento {
             //PjmCategoriaEstoque catNotebooks = new PjmCategoriaEstoque("Notebook", 10);
             //PjmProduto notebook = new PjmProduto("Positivo", 3400);
             //PjmProduto notebook2 = new PjmProduto("Mac", 20000);
-            PjmMenuPrincipal menu = new PjmMenuPrincipal();
 
-            menu.Menu();
+            PjmMenuInicial.MenuInicio();
             
 
 

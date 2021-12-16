@@ -7,8 +7,8 @@ namespace Armazenamento.FuncionariosNM
     {
         public string Nome { get; set; }
         public string Cargo { get; set; }
-
-
+        public string Email { get; set; }
+        public string Senha { get; set; }
 
 
         //Metódo ver categorias para todos os funcionários
