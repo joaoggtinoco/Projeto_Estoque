@@ -6,7 +6,7 @@ namespace Armazenamento.MenuNM
 
        
 
-        internal static void MenuSignInCargos()
+        internal static int MenuSignInCargos()
         {
 
             int opcao = 0;
@@ -74,10 +74,11 @@ namespace Armazenamento.MenuNM
                     case 9://OK
                         Console.Clear();
                         Console.WriteLine("Programa finalizado");
-                        break;
+                        return opcao;
 
                 }
             }
+            return opcao;
         }
     }
 }

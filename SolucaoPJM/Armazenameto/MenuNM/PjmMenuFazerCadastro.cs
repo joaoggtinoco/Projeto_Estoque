@@ -1,28 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using Armazenamento.FuncionariosNM;
 
 namespace Armazenamento.MenuNM
 {
-    internal class PjmMenuFazerCadastro
+    internal class PjmMenuFazerCadastro<T>
     {
         internal static void MenuFazerCadastro()
         {
+
+            PjmGerente T = new PjmGerente();
 
             int opcao = 0;
 
             while (opcao != 9)
             {
-
-                Console.Clear();
-                Console.WriteLine("   Estoque PJM");
-                Console.WriteLine("   Fazer cadastro:");
+                //QUERO CADASTRAR UM USUÁRIO E ARMAZENAR EM UMA LISTA
+                Console.WriteLine("Cadastrar gerente:");
                 Console.WriteLine("");
-                Console.WriteLine("1- Cadastrar - Gerente");
-                Console.WriteLine("2- Cadastrar - Estoquista");
-                Console.WriteLine("3- Voltar ao menu anterior");
+                Console.WriteLine("Digite o nome:");
+                 Console.ReadLine();
+                Console.WriteLine("");
+                Console.WriteLine("1- Fazer Login");
+                Console.WriteLine("2- Fazer cadastro");
                 Console.WriteLine("9- Finalizar programa");
                 Console.WriteLine("");
 
@@ -30,17 +29,18 @@ namespace Armazenamento.MenuNM
 
                 switch (opcao)
                 {
-                    case 1:
-                        // TODO implementar
+                    case 1://OK
+                        opcao = PjmMenuLogin.MenuSignInCargos();
                         break;
 
                     case 2:
-                        // TODO implementar
+                        opcao = PjmMenuEscolherCadastro.MenuEscolherCadastro();
                         break;
 
                     case 3://OK
                         Console.Clear();
-                        PjmMenuInicial.MenuInicio();
+                        Console.WriteLine("Digite uma opção válida.");
+                        Console.WriteLine("");
                         break;
 
                     case 4://OK
@@ -81,7 +81,7 @@ namespace Armazenamento.MenuNM
 
                 }
             }
-
         }
+
     }
 }

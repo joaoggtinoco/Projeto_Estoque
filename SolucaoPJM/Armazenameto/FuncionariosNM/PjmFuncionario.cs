@@ -3,13 +3,29 @@ using Armazenamento.EstoqueNM;
 
 namespace Armazenamento.FuncionariosNM
 {
-    public abstract class PjmFuncionario : PjmCrudBase
+    public abstract class PjmFuncionario
     {
+
         public string Nome { get; set; }
         public string Cargo { get; set; }
         public string Email { get; set; }
-        public string Senha { get; set; }
+        private string Senha { get; set; }
 
+        internal List<PjmFuncionario> funcionarios = new List<PjmFuncionario>();
+
+        public PjmFuncionario()
+        {
+
+        }
+
+        public PjmFuncionario(string nomeFunc, string cargoFunc, string emailFunc, string senhaFunc)
+        {
+            Nome = nomeFunc;
+            Cargo = cargoFunc;
+            Email = emailFunc;
+            Senha = senhaFunc;
+            funcionarios.Add(this);
+        }
 
         //Metódo ver categorias para todos os funcionários
         public abstract void VerTodasCategorias();

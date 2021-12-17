@@ -5,6 +5,19 @@ namespace Armazenamento.FuncionariosNM
 {
     public class PjmGerente : PjmFuncionario
     {
+        public int QntGerentes { get; private set; }
+
+        public PjmGerente()
+        {
+
+        }
+
+        public PjmGerente(string nomeGeren, string cargoGeren, string emailGeren, string senhaGeren)
+            : base(nomeGeren, cargoGeren, emailGeren, senhaGeren)
+        {
+            QntGerentes++;
+        }
+
 
         public PjmEstoque estoque;
         public PjmCategoriaEstoque categoria;

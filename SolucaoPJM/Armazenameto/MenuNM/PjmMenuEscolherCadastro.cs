@@ -1,23 +1,29 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 namespace Armazenamento.MenuNM
 {
-    internal class PjmMenuInicial
+    internal class PjmMenuEscolherCadastro
     {
-
-        internal static void MenuInicio()
+        internal static int MenuEscolherCadastro()
         {
 
             int opcao = 0;
 
+            Console.Clear();
+
             while (opcao != 9)
             {
 
-                Console.WriteLine("Seja bem-vindo ao estoque PJM!");
+                Console.WriteLine("   Estoque PJM");
+                Console.WriteLine("   Fazer cadastro:");
                 Console.WriteLine("");
-                Console.WriteLine("Informe a opção desejada:");
-                Console.WriteLine("");
-                Console.WriteLine("1- Fazer Login");
-                Console.WriteLine("2- Fazer cadastro");
+                Console.WriteLine("1- Cadastrar - Gerente");
+                Console.WriteLine("2- Cadastrar - Estoquista");
+                Console.WriteLine("3- Voltar ao menu anterior");
                 Console.WriteLine("9- Finalizar programa");
                 Console.WriteLine("");
 
@@ -25,18 +31,17 @@ namespace Armazenamento.MenuNM
 
                 switch (opcao)
                 {
-                    case 1://OK
-                        opcao = PjmMenuLogin.MenuSignInCargos();
+                    case 1:
+                        // TODO implementar
                         break;
 
                     case 2:
-                        opcao = PjmMenuEscolherCadastro.MenuEscolherCadastro();
+                        // TODO implementar
                         break;
 
                     case 3://OK
                         Console.Clear();
-                        Console.WriteLine("Digite uma opção válida.");
-                        Console.WriteLine("");
+                        PjmMenuInicial.MenuInicio();
                         break;
 
                     case 4://OK
@@ -73,10 +78,11 @@ namespace Armazenamento.MenuNM
                         Console.Clear();
                         Console.WriteLine("Programa finalizado");
                         Console.WriteLine("");
-                        break;
+                        return opcao;
 
                 }
             }
+            return opcao;
         }
     }
 }

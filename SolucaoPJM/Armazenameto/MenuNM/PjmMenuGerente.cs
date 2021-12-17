@@ -6,7 +6,7 @@ namespace Armazenamento.MenuNM
     {
         internal static void teste()
         {
-            Console.WriteLine("Estou aqui PjmMenuGerente");
+            Console.WriteLine("Estou aqui cadastrar gerente");
         }
     }
 }
