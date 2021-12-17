@@ -11,9 +11,10 @@ namespace Armazenamento.MenuNM
 
             int opcao = 0;
 
+            Console.Clear();
+
             while (opcao != 9) {
 
-                Console.Clear();
                 Console.WriteLine("   Estoque PJM");
                 Console.WriteLine("   LOGIN:");
                 Console.WriteLine("");
@@ -41,31 +42,37 @@ namespace Armazenamento.MenuNM
                         break;
                     
                     case 4://OK
+                        Console.Clear();
                         Console.WriteLine("Digite uma opção válida.");
                         Console.WriteLine("");
                         break;
                     
                     case 5://OK
+                        Console.Clear();
                         Console.WriteLine("Digite uma opção válida.");
                         Console.WriteLine("");
                         break;
                     
                     case 6://OK
+                        Console.Clear();
                         Console.WriteLine("Digite uma opção válida.");
                         Console.WriteLine("");
                         break;
                     
                     case 7://OK
+                        Console.Clear();
                         Console.WriteLine("Digite uma opção válida.");
                         Console.WriteLine("");
                         break;
                     
                     case 8://OK
+                        Console.Clear();
                         Console.WriteLine("Digite uma opção válida.");
                         Console.WriteLine("");
                         break;
 
                     case 9://OK
+                        Console.Clear();
                         Console.WriteLine("Programa finalizado");
                         break;
 
