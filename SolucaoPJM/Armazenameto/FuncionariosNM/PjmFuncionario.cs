@@ -3,10 +3,9 @@ using Armazenamento.EstoqueNM;
 
 namespace Armazenamento.FuncionariosNM
 {
-    public abstract class PjmFuncionario
+    public abstract class PjmFuncionario : PjmObjetoBase
     {
 
-        public string Nome { get; set; }
         public string Cargo { get; set; }
         public string Email { get; set; }
         private string Senha { get; set; }

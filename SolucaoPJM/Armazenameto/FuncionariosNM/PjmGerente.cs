@@ -5,7 +5,6 @@ namespace Armazenamento.FuncionariosNM
 {
     public class PjmGerente : PjmFuncionario
     {
-        public int QntGerentes { get; private set; }
 
         public PjmGerente()
         {
@@ -15,7 +14,7 @@ namespace Armazenamento.FuncionariosNM
         public PjmGerente(string nomeGeren, string cargoGeren, string emailGeren, string senhaGeren)
             : base(nomeGeren, cargoGeren, emailGeren, senhaGeren)
         {
-            QntGerentes++;
+         
         }
 
 
@@ -59,13 +58,13 @@ namespace Armazenamento.FuncionariosNM
 
         public bool AdicionarCategoria(PjmCategoriaEstoque categoria) //@@
         {
-            estoque.AdicionarItem(categoria);
+            estoque.AdicionarNaLista(categoria);
             return true;
         }
 
         public bool RemoverCategoria(PjmCategoriaEstoque categoria)
         {
-            estoque.RemoverItem(categoria);
+            estoque.RemoverObjeto(categoria);
             return true;
         }
 
@@ -77,20 +76,20 @@ namespace Armazenamento.FuncionariosNM
 
         public override void VerTodasCategorias() //@@
         {
-            estoque.ExibirItens();
+            estoque.ExibirLista();
         }
 
         //Métodos CRUD para produto
         public override bool AdicionarProduto(PjmProduto produto)//@@
         {
-            categoria.AdicionarItem(produto);
+            categoria.AdicionarNaLista(produto);
 
             return true;
         }
 
         public override bool RemoverProduto(PjmProduto produto)//@@
         {
-            categoria.RemoverItem(produto);
+            categoria.RemoverObjeto(produto);
             return true;
         }
 
@@ -101,7 +100,7 @@ namespace Armazenamento.FuncionariosNM
 
         public override void VerTodosProdutos() //@@
         {
-            categoria.ExibirItens();
+            categoria.ExibirLista();
         }
     }
 }
