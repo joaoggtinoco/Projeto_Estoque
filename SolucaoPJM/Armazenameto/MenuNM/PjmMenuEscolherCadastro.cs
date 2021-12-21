@@ -8,11 +8,11 @@ namespace Armazenamento.MenuNM
 {
     internal class PjmMenuEscolherCadastro
     {
+
         internal static int MenuEscolherCadastro()
         {
-
             int opcao = 0;
-
+            int opcaoEscolhida;
             Console.Clear();
 
             while (opcao != 9)
@@ -28,11 +28,14 @@ namespace Armazenamento.MenuNM
                 Console.WriteLine("");
 
                 opcao = PjmVerificaEntradaUsuario.EntradaOpcaoUsuario();
+                opcaoEscolhida = opcao;
 
                 switch (opcao)
                 {
                     case 1:
-                        // TODO implementar
+                        Console.Clear();
+
+                        PjmMenuFazerCadastro.MenuFazerCadastro();
                         break;
 
                     case 2:

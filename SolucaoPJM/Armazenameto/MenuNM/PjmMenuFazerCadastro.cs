@@ -3,7 +3,7 @@ using Armazenamento.FuncionariosNM;
 
 namespace Armazenamento.MenuNM
 {
-    internal class PjmMenuFazerCadastro<T>
+    internal class PjmMenuFazerCadastro
     {
         internal static void MenuFazerCadastro()
         {
@@ -14,18 +14,22 @@ namespace Armazenamento.MenuNM
 
             while (opcao != 9)
             {
-                //QUERO CADASTRAR UM USUÁRIO E ARMAZENAR EM UMA LISTA
-                Console.WriteLine("Cadastrar gerente:");
-                Console.WriteLine("");
-                Console.WriteLine("Digite o nome:");
-                 Console.ReadLine();
-                Console.WriteLine("");
-                Console.WriteLine("1- Fazer Login");
-                Console.WriteLine("2- Fazer cadastro");
-                Console.WriteLine("9- Finalizar programa");
-                Console.WriteLine("");
 
-                opcao = PjmVerificaEntradaUsuario.EntradaOpcaoUsuario();
+                //QUERO CADASTRAR UM USUÁRIO E ARMAZENAR EM UMA LISTA
+                Console.WriteLine("Para fazer o cardastro informe os dados que será pedido.");
+                Console.WriteLine("Ou digite 9 para finalizar o programa.");
+                Console.Write("Seu nome: ");
+                Console.ReadLine();
+                Console.Write("Seu cargo: ");
+                Console.ReadLine();
+                Console.Write("Seu E-mail: ");
+                Console.ReadLine();
+                Console.Write("E escolha uma senha forte: ");
+                Console.ReadLine();
+                Console.Write("Confirme sua senha: ");
+                Console.ReadLine();
+
+                
 
                 switch (opcao)
                 {

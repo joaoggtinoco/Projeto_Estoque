@@ -1,20 +1,20 @@
 ﻿
-namespace Armazenamento.BaseNM
-{
-    internal class PjmCadastrarFuncionarioBase : PjmCrudBase
-    {
+//namespace Armazenamento.BaseNM
+//{
+//    internal class PjmCadastrarFuncionarioBase : PjmCrudBase
+//    {
         
-        internal void CriarFuncionario(Pjm)
-        {
+//        internal void CriarFuncionario(Pjm)
+//        {
 
-        }
-
-
-        internal void CadastrarFuncionario(PjmObjetoBase funcionario)
-        {
-            base.
-        }
+//        }
 
 
-    }
-}
+//        internal void CadastrarFuncionario(PjmObjetoBase funcionario)
+//        {
+//            base.
+//        }
+
+
+//    }
+//}
